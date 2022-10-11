@@ -8,7 +8,7 @@ import (
 // Define a home handler function which writes a byte slice containing
 // "Hello from Snippetbox" as the response body.
 func home(w http.ResponseWriter, r *http.Request) {
-	// Check if the current request URL path exactly matches "/". If it doesn't, useAAAA
+	// Check if the current request URL path exactly matches "/". If it doesn't, use
 	// Importantly, we then return from the handler. If we don't return the handler
 	// would keep executing and also write the "Hello from SnippetBox" message.
 	log.Println(r.URL)
