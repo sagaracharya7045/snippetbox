@@ -30,7 +30,7 @@ func snippetCreate(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Create a new snippet..."))
 }
 func main() {
-	// Use the http.NewServeMux() function to initialize a new servemux, then
+	// Use the http.NewServeMux() function to initialize a new servemux, thenaaa
 	// register the home function as the handler for the "/" URL pattern.
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", home)
